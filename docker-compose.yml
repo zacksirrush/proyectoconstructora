@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    container_name: baser-web
+    ports:
+      - "8081:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./config/sec.env:/var/www/html/sec.env
+    environment:
+      - ENV_PATH=/var/www/html/sec.env
+    restart: unless-stopped
