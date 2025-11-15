@@ -26,7 +26,7 @@ Constructora Infraestructura es una empresa dedicada a servicios de construcció
 
 ## URL del Sitio Web
 
-[Constructora Infraestructura](https://www.c.com.mx)
+[No Aplica](#)
 
 ## Fecha de Desarrollo
 
